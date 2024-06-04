@@ -84,6 +84,25 @@ h2 {
   margin-top: 20px;
 }
 
+.rules{
+  width: fit-content;
+  background: dodgerblue;
+  padding: 10px;
+  position: relative;
+  top: 5px;
+  visibility: hidden;
+}
+
+#rules a{
+  color: white;
+  text-decoration: none;
+}
+
+.page-container:hover  .rules{
+  visibility: visible;
+}
+
+
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .game-container {
